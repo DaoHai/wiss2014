@@ -18,5 +18,10 @@ public class APIController {
 		HttpResponse response = client.processRequest(url);
 		return response;
 	}
+	
+	public HttpResponse getForces(String url){
+		HttpResponse response = client.processRequest(url);
+		return response;
+	}
 
 }
