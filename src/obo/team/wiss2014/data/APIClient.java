@@ -11,7 +11,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 public class APIClient {
 
-	public HttpResponse getCategories(String url) {
+	public HttpResponse processRequest(String url) {
 
 		HttpClient httpClient = new DefaultHttpClient();
 		HttpResponse httpResponse = null;
