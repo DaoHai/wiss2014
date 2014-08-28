@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "wiss2014.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in wiss2014.scss */
+.wiss2014 {
+  @include addons;
+  @include wiss2014;
+}
