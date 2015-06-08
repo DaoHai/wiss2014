@@ -1,3 +1,5 @@
+%Map Info from OpenStreet
+
 package obo.team.wiss2014;
 
 import java.util.Collection;
